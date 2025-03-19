@@ -1,0 +1,12 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[build.environment]
+  REACT_APP_AUTHOR = "MayanMisfit"
+  REACT_APP_BUILD_DATE = "2025-03-19"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
